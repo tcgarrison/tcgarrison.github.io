@@ -1,7 +1,19 @@
-h1 {
-color: blue;
+.jumbotron {
+  background-image: url(kitchen.jpg);
+  background-size: cover;
 }
 
-#header, p,a {
-  color: red;
+.jumbotron h1, p {
+  color: #f8f9fa;
+}
+
+.jumbotron img{
+  height: 200px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.navbar{
+text-align: left;
 }
